@@ -1,0 +1,16 @@
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.exe
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.deps.json
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.runtimeconfig.json
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.runtimeconfig.dev.json
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.dll
+B:\Kod\RememberTime\RememberTime\bin\Debug\net5.0\RememberTime.pdb
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.csproj.AssemblyReference.cache
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.GeneratedMSBuildEditorConfig.editorconfig
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.AssemblyInfoInputs.cache
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.AssemblyInfo.cs
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.csproj.CoreCompileInputs.cache
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.dll
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\refint\RememberTime.dll
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.pdb
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\RememberTime.genruntimeconfig.cache
+B:\Kod\RememberTime\RememberTime\obj\Debug\net5.0\ref\RememberTime.dll
