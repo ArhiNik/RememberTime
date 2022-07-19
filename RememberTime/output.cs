@@ -65,5 +65,20 @@ namespace RememberTime
                 Console.Write(sStr+" ");
             }
         }
+
+        //1.16.
+        public void tabOutput()
+        {
+            Console.Write("t = ");
+            int t = Convert.ToInt32(Console.ReadLine());
+            Console.Write("v = ");
+            int v = Convert.ToInt32(Console.ReadLine());
+            Console.Write("x = ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("y = ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"а) 5 10  б) 100 {t}  в) {x} 25\n   7 cm     1949 {v}  {x} {y}");
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace RememberTime
         {
 
             //Выполненные задания Ника с учебника ссылка: https://goo.su/EIxr
-            Console.WriteLine("На данный момент выполненны работы: 1.6.; 1.8.; 1.13.; 1.14.; 1.15.;");
+            Console.WriteLine("На данный момент выполненны работы: 1.6.; 1.8.; 1.13.; 1.14.; 1.15.; 1.16.;");
             Console.Write("Введите номер задачи: ");
             string number = Console.ReadLine();
 
@@ -35,6 +35,10 @@ namespace RememberTime
                 case "1.15.":
                     var fiveOutput = new output();
                     fiveOutput.spOutput();
+                    break;
+                case "1.16.":
+                    var sixOutput = new output();
+                    sixOutput.tabOutput();
                     break;
 
                 default:
