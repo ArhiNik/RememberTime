@@ -39,11 +39,20 @@ namespace RememberTime
         public void kvFrmula()
         {
             Console.Write("Введите сторону квадрата: ");
-            double a = Convert.ToDouble(Console.ReadLine());
+            double storon = Convert.ToDouble(Console.ReadLine());
 
-            double sum = a * 4;
+            double perym = storon * 4;
             
-            Console.WriteLine("Периметор квадрата равен: "+sum);
+            Console.WriteLine("Периметор квадрата равен: "+ perym);
+        }
+
+        //2.5.
+        public void okrFrmula()
+        {
+            Console.Write("Введите радиус окружности: ");
+            double radyus = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(radyus*2); 
         }
     }
 }

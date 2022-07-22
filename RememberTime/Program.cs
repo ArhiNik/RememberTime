@@ -8,7 +8,7 @@ namespace RememberTime
         {
 
             //Выполненные задания Ника с учебника ссылка: https://goo.su/EIxr
-            Console.WriteLine("На данный момент выполненны работы: 1.6.; 1.8.; 1.13.; 1.14.; 1.15.; 1.16.;\n2.1.; 2.2.; 2.3.; 2.4.");
+            Console.WriteLine("На данный момент выполненны работы: 1.6.; 1.8.; 1.13.; 1.14.; 1.15.; 1.16.;\n2.1.; 2.2.; 2.3.; 2.4.; 2.5.");
             Console.Write("Введите номер задачи: ");
             string number = Console.ReadLine();
 
@@ -56,6 +56,10 @@ namespace RememberTime
                 case "2.4.":
                     var fourFrmul = new frmula();
                     fourFrmul.kvFrmula();
+                    break;
+                case "2.5.":
+                    var fiveFrmul = new frmula();
+                    fiveFrmul.okrFrmula();
                     break;
 
 
