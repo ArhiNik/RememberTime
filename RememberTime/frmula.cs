@@ -54,5 +54,18 @@ namespace RememberTime
 
             Console.WriteLine(radyus*2); 
         }
+
+        //2.6.
+        public void gorizFrmula()
+        {
+            Console.Write("Радиос планеты Земля примерно равен: 6350 км\nВведите точку высоты h: ");
+            double h = Convert.ToInt32(Console.ReadLine());
+            int R = 6350;
+
+            double line = (R+h)*(R+h)-(R*R);
+            line = Math.Sqrt(line);
+            Console.WriteLine($"Ростояние от точки наблюдения {h} до линии горизонта равна: {Math.Round(line, 3)}");
+        }
+
     }
 }
