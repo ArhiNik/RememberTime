@@ -67,5 +67,6 @@ namespace RememberTime
             Console.WriteLine($"Ростояние от точки наблюдения {h} до линии горизонта равна: {Math.Round(line, 3)}");
         }
 
+
     }
 }
