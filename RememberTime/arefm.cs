@@ -26,5 +26,23 @@ namespace RememberTime
             Console.WriteLine($"После 234 дней прошло {nedeli} недель");
         }
 
+        //3.4.
+        public void applArefm()
+        {
+            Console.Write("Введите кол-во учеников: ");
+            int N = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите кол-во яблок: ");
+            int k = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"По {k/N} яблок досталось ученикам\n{k%N} осталось яблок в корзине");
+        }
+
+        //3.5.
+        public void coubArefm()
+        {
+            int sum = 543 / 130;
+            Console.WriteLine($"В прямоугольник размером 543х130мм можно вписать {sum} квадрата с размером сторон 130мм");
+        }
+
     }
 }

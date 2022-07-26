@@ -10,7 +10,7 @@ namespace RememberTime
             //Выполненные задания Ника с учебника ссылка: https://goo.su/EIxr
             Console.WriteLine("На данный момент выполненны работы: 1.6.; 1.8.; 1.13.; 1.14.; 1.15.; 1.16.;" +
                               "\n                                    2.1.; 2.2.; 2.3.; 2.4.; 2.5.; 2.6." +
-                              "\n                                    3.1.; 3.3.");
+                              "\n                                    3.1.; 3.3.; 3.4; 3.5.");
             Console.Write("Введите номер задачи: ");
             string number = Console.ReadLine();
 
@@ -79,6 +79,14 @@ namespace RememberTime
                 case "3.3.":
                     var twoArefm = new arefm();
                     twoArefm.dayArefm();
+                    break;
+                case "3.4.":
+                    var threeArefm = new arefm();
+                    threeArefm.applArefm();
+                    break;
+                case "3.5.":
+                    var fourArefm = new arefm();
+                    fourArefm.coubArefm();
                     break;
 
 
