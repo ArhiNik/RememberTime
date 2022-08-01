@@ -44,5 +44,22 @@ namespace RememberTime
             Console.WriteLine($"В прямоугольник размером 543х130мм можно вписать {sum} квадрата с размером сторон 130мм");
         }
 
+        //3.9.
+        public void sutkyArefm()
+        {
+            Console.Write("Введите  сколько секунд прошло с начало суток (макс. знач. - 86399сек.): ");
+            int time = Convert.ToInt32(Console.ReadLine());
+
+            if (time < 86400 && time > 0)
+            {
+                int chas = time / 3600;
+                int minsut = time / 60;
+                int minchas = minsut - chas * 60;
+                int secmin = time - minchas * 60 - chas * 3600;
+                Console.WriteLine($"сколько полных часов прошло с начала суток: {chas}" +
+                    $"\nсколько полных минут прошло с начала очередного часа: {minchas}" +
+                    $"\nсколько полных секунд прошло с начала очередной минуты: {secmin}");
+            }
+        }
     }
 }
